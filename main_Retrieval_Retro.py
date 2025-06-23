@@ -69,7 +69,7 @@ def main():
     args.eval = 5
     args.retrieval = 'ours'
     args.split = 'year'
-    args.embedder = 'RetroPLEX'
+    args.embedder = 'Retrieval_Retro'
 
     train_dataset = torch.load(f'./dataset/year/year_train_K_3.pt',map_location=device)
     valid_dataset = torch.load(f'./dataset/year/year_valid_K_3.pt',map_location=device)
